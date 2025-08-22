@@ -16,7 +16,7 @@ if hf_token:
 # Set page config
 st.set_page_config(page_title="Sentiment Analysis", layout="wide")
 
-st.title("🧠 Sentiment Analysis (Hugging Face)")
+st.title("🧠 Sentiment Analysis")
 st.write("Type a sentence in English, and the model will classify its sentiment.")
 
 # Text input from user
@@ -62,3 +62,4 @@ if st.button("🔍 Analyze Sentiment"):
             st.success("The model thinks this sentence expresses a positive sentiment.")
         else:
             st.error("The model thinks this sentence expresses a negative sentiment.")
+
